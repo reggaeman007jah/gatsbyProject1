@@ -8,7 +8,7 @@ export default class blog extends Component {
         <Link to="/">home</Link>
         <Link to="/blog">blog</Link>
         <Link to="/products">products</Link>
-        <div>products page</div>
+        <div>blog page</div>
       </div>
     )
   }
