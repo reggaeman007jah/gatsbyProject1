@@ -1,14 +1,13 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import Navbar from "../components/Navbar"
 
 export default class blog extends Component {
   render() {
     return (
       <div>
-        <Link to="/">home</Link>
-        <Link to="/blog">blog</Link>
-        <Link to="/products">products</Link>
-        <div>blog page</div>
+        <Navbar />
+        <h1>blog page</h1>
       </div>
     )
   }
