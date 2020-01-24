@@ -1,6 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
-export const Error = () => {
+const Error = () => {
   return <div>Something went terribly wrong...</div>
 }
+
+export default Error
