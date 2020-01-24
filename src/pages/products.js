@@ -7,6 +7,7 @@ export default function products() {
     <div>
       <Navbar />
       <h1>products page</h1>
+      <h3>This is a products page</h3>
     </div>
   )
 }

@@ -1,14 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
 
 const Error = () => {
-  return (
-    <div>
-      <Navbar />
-      Something went terribly wrong...
-    </div>
-  )
+  return <Layout>Something went terribly wrong...</Layout>
 }
 
 export default Error

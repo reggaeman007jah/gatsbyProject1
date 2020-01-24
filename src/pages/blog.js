@@ -8,6 +8,7 @@ export default class blog extends Component {
       <div>
         <Navbar />
         <h1>blog page</h1>
+        <h3>This is a blog page</h3>
       </div>
     )
   }
